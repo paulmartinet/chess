@@ -111,16 +111,18 @@ impl MyEguiApp {
         };
         let coups = match piece{
             WK | BK => {
-                let mut v = vec![(x+1, y+1), (x+1, y),(x, y+1)];
-                if x>0{
-                    v.append(&mut vec![(x-1, y+1), (x-1, y)])
-                }
-                if y>0{
-                    v.append(&mut vec![(x+1, y-1), (x, y-1)])
-                }
-                if x>0 && y>0 {
-                    v.append(&mut vec![(x-1, y-1)])
-                }
+                let mut v = vec![];
+                saut(&mut v, 1, 1);
+                saut(&mut v, 1, -1);
+                saut(&mut v, 1, 0);
+                saut(&mut v, 0, 1);
+                saut(&mut v, 0, 0);
+                saut(&mut v, 0, -1);
+                saut(&mut v, -1, 1);
+                saut(&mut v, -1, -1);
+                saut(&mut v, -1, 0);
+
+                
                 v
             },
             WR |BR => {

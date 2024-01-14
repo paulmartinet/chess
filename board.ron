@@ -1,0 +1,10 @@
+[
+    [Some((White, R)), Some((White, N)), Some((White, B)), Some((White, Q)), Some((White, K)), Some((White, B)), Some((White, N)), Some((White, R))],
+    [Some((White, P)), Some((White, P)), Some((White, P)), Some((White, P)), Some((White, P)), Some((White, P)), Some((White, P)), Some((White, P))],
+    [None, None, None, None, None, None, None, None],
+    [None, None, None, None, None, None, None, None],
+    [None, None, None, None, None, None, None, None],
+    [None, None, None, None, None, None, None, None],
+    [Some((Black, P)), Some((Black, P)), Some((Black, P)), Some((Black, P)), Some((Black, P)), Some((Black, P)), Some((Black, P)), Some((Black, P))],
+    [Some((Black, R)), Some((Black, N)), Some((Black, B)), Some((Black, Q)), Some((Black, K)), Some((Black, B)), Some((Black, N)), Some((Black, R))],
+]

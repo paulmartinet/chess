@@ -1,0 +1,10 @@
+[
+    [Some(WR), Some(WN), Some(WB), Some(WQ), Some(WK), Some(WB), Some(WN), Some(WR)],
+    [Some(WP), Some(WP), Some(WP), Some(WP), Some(WP), Some(WP), Some(WP), Some(WP)],
+    [None, None, None, None, None, None, None, None],
+    [None, None, None, None, None, None, None, None],
+    [None, None, None, None, None, None, None, None],
+    [None, None, None, None, None, None, None, None],
+    [Some(BP), Some(BP), Some(BP), Some(BP), Some(BP), Some(BP), Some(BP), Some(BP)],
+    [Some(BR), Some(BN), Some(BB), Some(BQ), Some(BK), Some(BB), Some(BN), Some(BR)],
+]
